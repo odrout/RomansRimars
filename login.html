@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="script.js"></script>
+  
+  <title>Document</title>
+</head>
+<body onload='document.form1.text1.focus()'>
+
+
+
+
+  <header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo"  href="https://healthysweets.romanrimar.repl.co/index.html">Healty Sweets</a>
+            
+
+            <nav class="nav" id="nav">
+              
+                <a class="nav__link" href="https://healthysweets.romanrimar.repl.co/about.html" >About</a>
+                
+                <a class="nav__link" href="https://healthysweets.romanrimar.repl.co/products.html" >Products</a>
+                <a class="nav__link" href="https://healthysweets.romanrimar.repl.co/ingredients.html" >Ingredients</a>
+                <a class="nav__link" href="https://healthysweets.romanrimar.repl.co/contacts.html" >Contacts</a>
+                 <a class="nav__link2" href="https://HealthySweets.romanrimar.repl.co/login.html">Log In</a>
+                <i class="fas fa-shopping-cart"></i>
+                
+                <a class="nav__link" href="#"></a>
+                    <i class="fas fa-search"></i>
+            </nav>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+        </div>
+    </div>
+
+ <div class="mail">
+
+<form name="form1" action="#"> 
+
+<center><input type='text' name='text1'/></center>
+<br>
+<br>
+
+<center><div class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></div></center>
+
+</form>  
+        </div>
+</body>
+</html>
